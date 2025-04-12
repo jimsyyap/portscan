@@ -1,0 +1,35 @@
+# Binaries
+portscanner
+*.exe
+
+# Go build artifacts
+*.o
+*.a
+*.so
+*.out
+
+# Go module cache
+vendor/
+go.sum
+
+# Logs
+*.log
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test and coverage files
+*.test
+*.prof
+coverage.out
+
+# Environment files
+.env
+grok.go
+claude.go
+deepsk.go
+chatgpt.go
